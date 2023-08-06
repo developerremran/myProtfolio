@@ -1,0 +1,16 @@
+.border-animation {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    border-top: 4px solid #db0707;
+    border-bottom: 4px solid #6706f7;
+    transition: width 0.3s ease;
+    z-index: 1;
+  }
+  
+  button:hover .border-animation {
+    width: 100%;
+  }
